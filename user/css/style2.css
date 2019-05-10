@@ -1,0 +1,36 @@
+@import url("../plugins/font-awesome-4.7.0/css/font-awesome.min.css");
+/*@import url("../plugins/bootstrap.min.css");*/
+@import url("../plugins/bootstrap-select.min.css");
+@import url("../plugins/jquery-ui/jquery-ui.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700|Source+Sans+Pro:400,600,700");
+
+
+.navbar {
+  margin-bottom: 0;
+  background: #48bdc5;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar .navbar-nav li a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 25px 20px;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #fff;
+}
+
+.navbar .navbar-nav li.active a {
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav li.active a:hover {
+  background: transparent;
+  color: #fff;
+}
